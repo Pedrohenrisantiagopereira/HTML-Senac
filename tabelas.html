@@ -1,0 +1,115 @@
+<!DOCTYPE html <html lang="pt-BR">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>trabalhando com tabela </title>
+</head>
+
+<body>
+    <h1>trabalhando com tabelas</h1>
+    <p> no HTML os dados são tabulares são aqueles que podem ser
+        representados visualmente em forma de tabela.</p>
+    <p>A elaboraçao de uma tabela consiste em uma forma objetiva e ordenadade
+        expor as informaçoes</p>
+    <h3>tabela simples:</h3>
+    <!--O border não está mais sendo usada e somente o estilo no CSS.-->
+    <table border="12">
+        <!--0 TR é a linha da minha tabela.
+            o TD é a celula-->
+        <tr>
+            <td>violão</td>
+            <td>guitarra</td>
+        </tr>
+        <td>violino</td>
+        <td>piano</td>
+        </tr>
+
+    </table>
+    <h3>tabela com titulo</h3>
+    <table border="1">
+        <tr>
+            <th>instrumento de corda</th>
+            <th>instrumento de sopro</th>
+        </tr>
+        <tr>
+            <td>violino</td>
+            <td>Flauta </td>
+        </tr>
+        <tr>
+            <td>violão</td>
+            <td>corneta</td>
+        </tr>
+    </table>
+    <h3>cabeçalho vertical</h3>
+    <table border="1">
+        <tr>
+            <th>livros</th>
+            <td>arte moderna</td>
+            <td>programaçao</td>
+        </tr>
+        <tr>
+            <th>quantidade</th>
+            <td>500 livros</td>
+            <td>800 livros</td>
+        </tr>
+    </table>
+
+
+
+
+
+    <h3>cabeçalho, corpo e um rodapé</h3>
+    <p>Estes elementos criam seçoes dentro da tabela que podem receber
+        uma funçao direcionada, útil para a formataçao da tabela com muitos
+        dados.</p>
+    <table border="1">
+        <caption>thead/tfoot/tbody</caption>
+        <thead>
+            <tr>
+                <!--para mesclar as células  é usando o colspan (colunas)
+     e rowspan (linhas)-->
+                <th colspan="2">coluna 1</th>
+                <th>coluna 2</th>
+                <th>coluna 3</th>
+
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+
+            <tr>resultado1</tr>
+            <tr>resultado2</tr>
+            <tr>resultado3</tr>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td rowspan="2">conteúdo a</td>
+                <td>conteudo b</td>
+                <td>conteudo c</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+
+                <td>conteudo d</td>
+                <td>conteudo e</td>
+                <td>conteudo f</td>
+            </tr>
+        </tbody>
+        <tr>
+
+            <td>conteudo g</td>
+            <td>conteudo h</td>
+            <td>conteudo i</td>
+        </tr>
+        </tbody>
+
+
+    </table>
+
+
+</body>
+
+</html>
